@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>STERLITAMAK VILLAGE</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="header-top">
+      <div class="header-top-container">
+        <div class="header-top-img">
+          <a href="#0"><img src="images/logo.png"></a>
+        </div>
+        <nav class="header-top-nav">
+          <ul>
+            <li><a class="header-top-link" href="#header-inf">Главная</a></li>
+            <li><a class="header-top-link" href="#container">О поселке</a></li>
+            <li><a class="header-top-link" href="#infrastructure">Коммуникации и инфраструктура</a></li>
+            <li><a class="header-top-link --unique" href="#0">КП «Нефтекамск»</a></li>
+          </ul>
+        </nav>
+        <div class="top-call">
+          <div class="call-number">
+            <div>+7 (111) 11-11-111</div>
+            <a href="#callForm">Заказать звонок</a>
+          </div>
+          <div class="top-call-img">
+            <img src="images/icon-phone.svg">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="header-inf" id="header-inf">
+      <div class="header-inf-container">
+        <div class="title">
+          <div class="title-main">Коттеджный поселок на берегу реки</div>
+          <div class="title-price">от 199 т.р. за сотку</div>
+        </div>
+        <div class="header-nature">
+          <div class="header-nature-item">
+            <img src="images/icon-fir-tree.svg">
+            <div>Сосновый<br>лес</div>
+          </div>
+          <div class="header-nature-item">
+            <img src="images/icon-landscaped.svg">
+            <div>Благоустроенная<br>территория</div>
+          </div>
+          <div class="header-nature-item">
+            <img src="images/icon-coast.svg">
+            <div>Берег реки<br>Белая</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <div class="container" id="container">
+      <section class="about-village">
+        <div class="about-village-title">О поселке</div>
+        <br>
+        <div class="about-village-text">Sterlitamak Village – камерный проект, где комфортно жить,
+          приятно отдыхать и находить новую энергию для движения вперед.
+          Поселок окружен лесопарком с одной стороны и рекой с другой. А внутри озеленен молодыми соснами.<br>
+          Дом с видом на лес или на реку – выбор за Вами!</div>
+      </section>
+      <section class="section-slider">
+        <div class="slider-container">
+          <a class="prev" onclick="plusSlides(-1)">&#10094</a>
+          <div class="slider-item fade">
+            <img src="images/village-view-2.jpg">
+            <div class="slider-text">
+              <div class="slider-text-title">Детская площадка</div>
+              <br>
+              <div class="slider-text-info">Детские площадки отличаются от стандартных. Они зонированы - отделены от проезжей части зелеными соснами.
+                Игровые зоны Sterlitamak Village организованы по возрастам:
+                для тех, кто недавно научился ходить – песочницы, качели и карусели, а для детей постарше – игровой комплекс в виде самолета.</div>
+            </div>
+          </div>
+          <div class="slider-item fade">
+            <img src="images/village-view-3.jpg">
+            <div class="slider-text">
+              <div class="slider-text-title">Пляжная зона</div>
+              <br>
+              <div class="slider-text-info">Особенностью нашего поселка – является благоустроенный пляж.
+                Песчаный берег с лежаками, пляжным волейболом и детской зоной. Место, где Вы сможете наслаждаться солнечными днями и отдыхать на берегу реки.</div>
+            </div>
+          </div>
+          <div class="slider-item fade">
+            <img src="images/village-view-4.jpg">
+            <div class="slider-text">
+              <div class="slider-text-title">Уютная гостиная</div>
+              <br>
+              <div class="slider-text-info">Уникальным комфортным пространством является гостиная с камином для жителей поселка,
+                где можно проводить встречи, играть в настольные игры или просто отдохнуть у камина.</div>
+            </div>
+          </div>
+          <a class="next" onclick="plusSlides(1)">&#10095</a>
+        </div>
+
+        <div class="dot-div">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+      </section>
+      <section class="infrastructure" id="infrastructure">
+        <div class="infrastructure-container">
+          <div class="infrastructure-title">Коммуникации и инфраструктура</div>
+          <div class="infrastructure-card">
+            <div class="infrastructure-card-item">
+              <img src="images/infrastructure-1.png">
+              <div class="infrastructure-text">
+                <div class="infrastructure-text-title">Благоустроенная территория</div>
+                <br>
+                <div class="infrastructure-text-info">Продуманное зонирование общественных зон дает возможность и взрослым,
+                  и детям провести время за городом активно и интересно.
+                </div>
+              </div>
+            </div>
+            <div class="infrastructure-card-item">
+              <img src="images/infrastructure-2.png">
+              <div class="infrastructure-text">
+                <div class="infrastructure-text-title">Дороги</div>
+                <br>
+                <div class="infrastructure-text-info">До поселка идет индивидуальная асфальтированная дорога в окружении леса.
+                  Внутри поселка дороги будут выполнены также в асфальте.
+                </div>
+              </div>
+            </div>
+            <div class="infrastructure-card-item">
+              <img src="images/infrastructure-4.png">
+              <div class="infrastructure-text">
+                <div class="infrastructure-text-title">Электрика</div>
+                <br>
+                <div class="infrastructure-text-info">Электрика разведена подземным способом.</div>
+              </div>
+            </div>
+            <div class="infrastructure-card-item">
+              <img src="images/infrastructure-6.png">
+              <div class="infrastructure-text">
+                <div class="infrastructure-text-title">Охрана и видеонаблюдение</div>
+                <br>
+                <div class="infrastructure-text-info">Доступ и заезд на территорию поселка осуществляется через охрану.
+                  Помимо этого для удобства жителей будет внедрена система распознавания номеров автомобилей.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section-call">
+          <div class="section-call-title">Заказать звонок</div>
+          <br>
+          <form id="callForm" action="" method="POST">
+            <input type="text" id="name" name="name" placeholder="Ваше имя" required>
+            <input type="tel" id="phone" name="phone" placeholder="Номер телефона" required>
+            <button type="submit" onclick="sendToBot()">Отправить</button>
+          </form>
+      </section>
+    </div>
+  </main>
+
+<script src="script.js"></script>
+  <script src="Inputmask-5.x/dist/inputmask.min.js"></script>
+</body>
+</html>
